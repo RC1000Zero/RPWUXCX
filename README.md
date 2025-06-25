@@ -31,10 +31,10 @@ Turn on your Wii U, and in the plugin configuration settings, make sure ftpiiu i
 
 Run the `ftp.py` Python script in your cloned or forked repository. Enter the IP address of your Wii U (shown in ftpiiu's configuration settings). The Python script will automatically go through your system, downloading only new icons into the `downloads` folder and adding the games to the `titles.json` file.
 
-That's it for getting the media! You can skip down to [formatting the icons]().
-
 > [!IMPORTANT]
 > This method may also unintentionally transfer Virtual Console injects. Remove any instances of these in the `titles.json` file as well as their icons.
+
+That's it for getting the media! You can skip down to [formatting the icons](#formatting-the-icons).
 
 ## Using WiiUDownloader
 In WiiUDownloader, you can download decrypted game contents. Select the game(s) you want to add, then toggle "Decrypt contents" before downloading. **Be aware of the game region(s).**
@@ -47,7 +47,7 @@ In `titles.json`, add a new key with the same name as the `longname_en` tag. Her
 ```
 "LEGO® Marvel Superheroes":"iconTex.tga"
 ```
-That's it for getting the media! You can skip down to [formatting the icons]().
+That's it for getting the media! You can skip down to [formatting the icons](#formatting-the-icons).
 
 ## Manually copying from FTP server
 > [!IMPORTANT]
